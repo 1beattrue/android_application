@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648165747646",
+    "project_id": "application-fb660",
+    "storage_bucket": "application-fb660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648165747646:android:f73dadbb3e2623304fa7ef",
+        "android_client_info": {
+          "package_name": "edu.mirea.onebeattrue.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648165747646-u1dc6bbkm5jqp18s4jdtu1k749ooikqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR-xOKrSnQsne93D3ziGkk6gEkBqgiNjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648165747646-u1dc6bbkm5jqp18s4jdtu1k749ooikqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

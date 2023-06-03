@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph"
-    app:startDestination="@id/firstFragment">
+    app:startDestination="@id/authorizationFragment">
 
     <fragment
         android:id="@+id/firstFragment"
@@ -25,4 +25,28 @@
         android:name="edu.mirea.onebeattrue.application.ui.FourthFragment"
         android:label="fragment_fourth"
         tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="edu.mirea.onebeattrue.application.auth.AuthorizationFragment"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization" >
+        <action
+            android:id="@+id/action_authorizationFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_authorizationFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="edu.mirea.onebeattrue.application.auth.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_firstFragment"
+            app:destination="@id/firstFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment" />
+    </fragment>
 </navigation>
