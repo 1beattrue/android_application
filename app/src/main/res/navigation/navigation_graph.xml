@@ -9,7 +9,11 @@
         android:id="@+id/firstFragment"
         android:name="edu.mirea.onebeattrue.application.ui.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment" />
+    </fragment>
     <fragment
         android:id="@+id/secondFragment"
         android:name="edu.mirea.onebeattrue.application.ui.SecondFragment"

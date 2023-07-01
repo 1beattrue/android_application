@@ -39,7 +39,7 @@ public class RegistrationFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(binding.getRoot())
-                        .navigate(R.id.action_authorizationFragment_to_registrationFragment);
+                        .navigate(R.id.action_registrationFragment_to_authorizationFragment);
             }
         });
 
